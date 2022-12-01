@@ -12,3 +12,5 @@ Each of the three available CSV tabs (Student_Info, MAP_Scores, and Special_Prog
 ## Data Visualization
 
 ## Conclusions
+
+## Considerations
