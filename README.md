@@ -9,7 +9,15 @@ Each of the three available CSV tabs (Student_Info, MAP_Scores, and Special_Prog
 ![Data_ERD](Images/Data_ERD.png)
 
 ## Data Cleaning
+All data cleaning was completed in either Jupyter Notebook or Excel. Jupyter notebook was used to merge the separate tabs from the given Google Sheet into one dataframe, do basic cleaning on the data, and export CSVs for use in Tableau. Excel was used to merge data, so that each student had one row with all scores pertaining to that student rather than a row for each instance and subject of testing. Below are a few examples of the data cleaning process: 
 
+**Merging Dataframes**
+
+![df_merge](Images/df_merge.png)
+
+**Cleaning The Subject Column**: Turning all cells reading 'Read' to 'Reading'.
+
+![cleaning](Images/cleaning.png)
 
 ## Data Visualization
 All data visualization was completed using a Tableau Public data story. The KIPP Performance Task data story has multiple pages that are meant to be utilized with the following in mind: 
