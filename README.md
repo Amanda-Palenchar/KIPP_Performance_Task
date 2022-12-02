@@ -20,7 +20,7 @@ All data cleaning was completed in either Jupyter Notebook or Excel. Jupyter not
 ![cleaning](Images/cleaning.png)
 
 ## Data Visualization
-All data visualization was completed using a Tableau Public data story. The KIPP Performance Task data story has multiple pages that are meant to be utilized with the following in mind: 
+All data visualization was completed using a Tableau Public data story. [The KIPP Performance Task data story](https://public.tableau.com/app/profile/amanda.palenchar/viz/KIPPPerformanceTask/KIPPMAPsResults) has multiple pages that are meant to be utilized with the following in mind: 
 
 - **Math RIT Score School Comparison** & **Reading RIT Score School Comparison**: The boxplots are meant to support network level and school based admin in understanding school overall performance (spread of data, median improvement, etc.). The school filter on the right can be used to narrow down search fields to make relevant comparisons (i.e. middle school to middle school).
 
