@@ -27,7 +27,7 @@ Below are tables showing the mean typical growth for math and reading broken dow
 ![stat_tests_2](Images/stat_tests_2.png)
 
 ## Data Visualization
-All data visualization was completed using a Tableau Public data story. [The KIPP Performance Task data story](https://public.tableau.com/app/profile/amanda.palenchar/viz/KIPPPerformanceTask/KIPPMAPsResults) has multiple pages that are meant to be utilized with the following in mind: 
+All data visualization was completed using a Tableau Public data story. The visualizations below are meant to show a sample of what is provided in the Tableau Story, but the user is invited to click the link, manipulate their own visualizations, and draw conclusions. [The KIPP Performance Task data story](https://public.tableau.com/app/profile/amanda.palenchar/viz/KIPPPerformanceTask/KIPPMAPsResults) has multiple pages that are meant to be utilized with the following in mind: 
 
 - **Math RIT Score School Comparison** & **Reading RIT Score School Comparison**: The boxplots are meant to support network level and school based admin in understanding school overall performance (spread of data, median improvement, etc.). The school filter on the right can be used to narrow down search fields to make relevant comparisons (i.e. middle school to middle school).
 
