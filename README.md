@@ -15,7 +15,7 @@ All data cleaning was completed in either Jupyter Notebook or Excel. Jupyter not
 
 ![df_merge](Images/df_merge.png)
 
-**Cleaning The Subject Column**: Turning all cells reading 'Read' to 'Reading'.
+**Cleaning The Subject Column**: Turning cell from 'Read' to 'Reading'.
 
 ![cleaning](Images/cleaning.png)
 
