@@ -19,6 +19,13 @@ All data cleaning was completed in either Jupyter Notebook or Excel. Jupyter not
 
 ![cleaning](Images/cleaning.png)
 
+## Growth Data Analystis
+Below are tables showing the mean typical growth for math and reading broken down by various identifiers (school, grade level, and program). A t-test was used between the typical mean growth and the actual mean growth to determine whether results were statistically significant and whether results met or were above or below expectations. 
+
+![stat_tests_1](Images/stat_tests_1.png)
+
+![stat_tests_2](Images/stat_tests_2.png)
+
 ## Data Visualization
 All data visualization was completed using a Tableau Public data story. [The KIPP Performance Task data story](https://public.tableau.com/app/profile/amanda.palenchar/viz/KIPPPerformanceTask/KIPPMAPsResults) has multiple pages that are meant to be utilized with the following in mind: 
 
