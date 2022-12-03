@@ -1,7 +1,7 @@
 # KIPP_Performance_Task
 
 ## Overview
-This analysis examines MAP scores for a Texas-based branch of a charter management organization (CMO). The investigation identifies key trends in the data and provides visualizations to help a user digest and act on the findings. 
+This analysis examines MAP scores for a Texas-based branch of a national charter management organization (CMO). The investigation identifies key trends in the data and provides visualizations to help a user digest and act on the findings. 
 
 ## Entity Relationship Diagram & Merging
 Each of the three available CSV tabs (Student_Info, MAP_Scores, and Special_Programs) have a unique identifier that can be used as both a primary and foreign key: student_id. The entity relationship diagram below depicts the features of each of the three CSV files and shows how they are combined into one file using SQL. 
@@ -9,7 +9,7 @@ Each of the three available CSV tabs (Student_Info, MAP_Scores, and Special_Prog
 ![Data_ERD](Images/Data_ERD.png)
 
 ## Data Cleaning
-All data cleaning was completed in either Jupyter Notebook or Excel. Jupyter notebook was used to merge the separate tabs from the given Google Sheet into one data frame, do basic cleaning on the data, and export CSVs for use in Tableau. Excel was used to merge data, so that each student had one row with all scores pertaining to that student rather than a row for each instance and subject of testing. Below are a few examples of the data cleaning process: 
+All data cleaning was completed in either Jupyter Notebook or Excel. Jupyter notebook was used to merge the separate tabs from the given Google Sheet into one data frame, do basic cleaning on the data, and export CSVs for use in Tableau. Excel was used to merge data, so that each student had one row with all scores pertaining to that student rather than a row for each instance and subject of testing. This is useful for calculating actual growth over the school year. Below are a few examples of the data cleaning process: 
 
 **Merging Data Frames**
 
@@ -20,7 +20,7 @@ All data cleaning was completed in either Jupyter Notebook or Excel. Jupyter not
 ![cleaning](Images/cleaning.png)
 
 ## Growth Data Analysis
-Below are tables showing the mean typical growth for math and reading broken down by various identifiers (school, grade level, and program). A t-test was used between the typical mean growth and the actual mean growth to determine whether results were statistically significant and whether results met or were above or below expectations. 
+Below are tables showing the mean typical growth for math and reading broken down by various identifiers (school, grade level, and program). Multiple t-tests were used in R between the typical mean growth and the actual mean growth to determine whether results were statistically significant and whether results met or were above or below expectations.
 
 ![stat_tests_1](Images/stat_tests_1.png)
 
@@ -49,7 +49,7 @@ All data visualization was completed using a Tableau Public data story. The visu
 With so many ways to cut data (subject, school, grade, program, etc.), there are infinite combinations of slicing and conclusions to be drawn depending on your frame of reference within the network (i.e. a school administrator at School A vs. a SPED teacher at school F). This analysis, however, will focus on high level, network-wide conclusions, keeping in mind that visualizations are provided in the Tableau to investigate more nuanced facets of the data.
 
 Below are three important conclusions that can be drawn after inspecting the Growth Data Analysis: 
-1. **Network**: This data indicates that this network overall met its growth expectations for both math and reading. 
+1. **Network**: This data indicates that this network, overall, met its growth expectations for both math and reading. 
 2. **Special Programs**: GenEd students and some special programs met their growth goals for 2019: GenEd (reading was above expectations), 504, and LEP. Gifted students were above their growth expectations for both subjects. However, students with disabilities or who are on Tier 2 plans were below expectations for both math and reading across the network. This might prompt an investigation into the services being provided across all groups.
 3. **Grade Level**: Grade 0, which is assumed to be kindergarten, is exceeding expectations for both math and reading. This is the only grade level to accomplish that task and should be celebrated. Additionally, all of middle school reading is meeting expectations.  
 
